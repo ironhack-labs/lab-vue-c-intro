@@ -1,9 +1,9 @@
 <script setup>
-/* import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue' */
+import navBar from './components/navBar.vue';
 </script>
 
 <template>
+  <navBar />
   <header>
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
