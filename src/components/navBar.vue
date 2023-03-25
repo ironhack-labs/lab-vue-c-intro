@@ -1,13 +1,12 @@
 <template>
     <div>
-        <img class = "ironHackLogo" src="../Images/Ironhack_logo.svg" alt="ironHackLogo">
-        <img class = "burguerLogo" src="../Images/Burger_menu.svg" alt="burguerMenuLogo">
+        <img class = "ironHackLogo" src="../assets/Images/Ironhack_logo.svg" alt="ironHackLogo">
+        <img class = "burguerLogo" src="../assets/Images/Burger_menu.svg" alt="burguerMenuLogo">
     </div>
 </template>
 
 <script>
 export default {
-    
 }
 </script>
 
