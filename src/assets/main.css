@@ -1,13 +1,43 @@
 @import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+* {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
 #app {
   max-width: 600px;
   margin: 0 auto;
 }
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color:rgba(43, 47, 48, 1);
+  letter-spacing: -2%;
+}
+h2 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 800;
+  color: rgba(43, 47, 48, 1)
+}
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -2%;
+}
+p {
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: -2%;
+  font-weight: 400;
+}
+.btn--grey {
+  background-color: rgba(52, 73, 94, 1);
+  color: white;
+  padding: 25px 5px 25px 6px;
+}
+.btn--rounded {
+  border-radius: 13px;
+  padding: 5px 25px 6px 25px;
 }
