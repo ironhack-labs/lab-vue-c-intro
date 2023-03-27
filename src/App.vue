@@ -1,21 +1,15 @@
 <script setup>
 import navBar from './components/navBar.vue';
+import heroSection from './components/heroSection.vue';
+import VueFeatures from './components/vueFeatures.vue';
 </script>
 
 <template>
   <navBar />
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <heroSection />
+  <VueFeatures />
 </template>
+
 
 <style scoped>
 header {
