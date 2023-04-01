@@ -2,25 +2,28 @@
   <div id="app">
     <Navbar />
     <Main />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue';
 import Main from './components/Main.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    Main
+    Main,
+    Footer
   }
 }
 </script>
 
 <style>
   #app {
-    width: 1400px;
+    width: 600px;
     margin: 0 auto;
   }
 </style>

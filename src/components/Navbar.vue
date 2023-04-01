@@ -1,8 +1,10 @@
 <script setup>
-    export default {
-        name: "Navbar",
+   
+const props = defineProps({
+    name: "Navbar",
 
-    }
+})
+
 </script>
 
 <template>
