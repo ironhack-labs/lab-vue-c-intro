@@ -41,15 +41,13 @@ const props = defineProps({
   width: 600px;
   height: 310px;
   color: #000000;
-  margin: 0;
-}
+}  
 
 .footer-class {
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: spacea;
-  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  height: 100%;
 }
 
 .footer-class div {
@@ -57,8 +55,6 @@ const props = defineProps({
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  width: 125px;
-  padding: 20px 35px;
 }
 
 .footer-class img {
@@ -66,10 +62,10 @@ const props = defineProps({
   height: 60px;
 }
 
-
 h4 {
   font-size: 16px;
   font-weight: bold;
+  margin: 10px;
 }
 
 p {

@@ -20,8 +20,9 @@ const props = defineProps({
 </template>
 
 <style scoped>
+
 main {
-  font-family: inter;
+  font-family: 'Inter', sans-serif;;
   font-weight: bold;
 }
 
@@ -31,6 +32,7 @@ main {
   width: 129px;
   height: 129px;
   margin: 40px auto;
+  text-align: center;
 }
 
 h1 {

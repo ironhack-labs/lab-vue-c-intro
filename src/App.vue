@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <Navbar />
-    <Main />
-    <Footer />
+    <div class="container">
+      <Navbar />
+      <Main />
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -23,8 +25,22 @@ export default {
 </script>
 
 <style>
-  #app {
-    width: 600px;
+
+  body {
+    display: block;
+  }
+
+  @media (min-width: 1024px) {
+    body {
+      display: block;
+      place-items: unset;
+    }
+  }
+
+  .container {
+    max-width: 600px;
     margin: 0 auto;
   }
+
 </style>
+
