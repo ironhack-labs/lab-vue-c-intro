@@ -2,7 +2,6 @@
 import navBarVue from "./components/navBar.vue";
 import introSectionVue from "./components/introSection.vue";
 import UPSSectionVue from "./components/UPSSection.vue";
-
 </script>
 
 <template>
@@ -10,7 +9,3 @@ import UPSSectionVue from "./components/UPSSection.vue";
   <introSectionVue />
   <UPSSectionVue />
 </template>
-
-<style scoped>
-
-</style>
