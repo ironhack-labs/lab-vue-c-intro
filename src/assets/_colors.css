@@ -16,4 +16,5 @@
     --color-text: var(--vt-c-indigo);
     --color-h1: var(--vt-c-grey-darkest);
     --color-danger: var(--vt-c-red);
+    --color-primary-green: var(--vt-c-green) ;
 }
