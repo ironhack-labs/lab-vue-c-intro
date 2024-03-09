@@ -17,9 +17,9 @@
   </section>
 
   <section id="articles-section">
-    <InfoArticle imagePath='@/images/USP-1.png' title="Performant" content="Truly reactive, compiler-optimized rendering system that rarely requires manual optimization."/>
-    <InfoArticle imagePath='@/images/USP-2.png' title="Approachable" content="Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation."/>
-    <InfoArticle imagePath='@/images/USP-3.png' title="Versatile" content="A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework."/>
+    <InfoArticle imagePath='src/images/USP-1.png' title="Performant" content="Truly reactive, compiler-optimized rendering system that rarely requires manual optimization."/>
+    <InfoArticle imagePath='src/images/USP-2.png' title="Approachable" content="Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation."/>
+    <InfoArticle imagePath='src/images/USP-3.png' title="Versatile" content="A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework."/>
   </section>
   
 

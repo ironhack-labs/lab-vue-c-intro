@@ -21,6 +21,7 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     max-width: 125px;
     max-height: 202px;
     width: 100%;
