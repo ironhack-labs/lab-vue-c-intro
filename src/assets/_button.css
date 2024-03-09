@@ -1,0 +1,23 @@
+button {
+    background-color: var(--bg-color-button);
+    color: var(--color-button);
+    width: var(--width-button);
+    height: var(--height-button);
+    border-radius: var(--border-radius-button);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    line-height: var(--line-height-button);
+    letter-spacing: var(--letter-spacing-button);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: var(--vt-c-grey-darkest);
+  }
+
+  button.danger {
+    background-color: var(--color-danger);
+  }
