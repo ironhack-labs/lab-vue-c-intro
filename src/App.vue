@@ -50,7 +50,7 @@
   }
 
   #hero {
-    width: 456px;
+    margin: 0 72px 0 72px;
     height: 299px;
     text-align: center;
   }
