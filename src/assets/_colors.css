@@ -1,0 +1,19 @@
+:root {
+
+    /* Primitive colors */
+
+    --vt-c-white: #ffffff;
+    --vt-c-indigo: #2c3e50;
+    --vt-c-green: #39B983;
+    --vt-c-grey-darkest: #2B2F30;
+    --vt-c-grey-darker: #34495E;
+    --vt-c-black: #000000;
+    --vt-c-red: #760000;
+    
+    /* Semantic colors */
+
+    --color-background: var(--vt-c-white);
+    --color-text: var(--vt-c-indigo);
+    --color-h1: var(--vt-c-grey-darkest);
+    --color-danger: var(--vt-c-red);
+}
