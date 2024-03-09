@@ -6,5 +6,5 @@
 <button>Awesome!</button>
 </template>
 
-<style>
+<style scoped>
 </style>
