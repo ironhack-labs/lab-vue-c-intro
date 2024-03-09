@@ -1,4 +1,4 @@
-<script setup>
+<script>
 
 </script>
 
@@ -6,5 +6,5 @@
 <button>Awesome!</button>
 </template>
 
-<style scoped>
+<style>
 </style>
