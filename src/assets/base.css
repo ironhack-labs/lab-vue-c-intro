@@ -1,13 +1,19 @@
-/* color palette from <https://github.com/vuejs/theme> */
 :root {
+  /* Color variables */
   --vt-c-white: #ffffff;
   --vt-c-indigo: #2c3e50;
-  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-green: #39B983;
+  --vt-c-grey-darkest: #2B2F30;
+  --vt-c-grey-darker: #34495E;
+  --vt-c-black: #000000;
 }
 
 :root {
+    /* Semantic variables */
   --color-background: var(--vt-c-white);
-  --color-text: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-indigo);
+  --color-h1: var(--vt-c-grey-darkest);
+  --color-button: var(--vt-c-grey-)
 }
 
 *,
