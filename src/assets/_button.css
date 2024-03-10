@@ -1,0 +1,37 @@
+:root {
+
+  /* Button variables */
+
+  --bg-color-button: var(--vt-c-grey-darker);
+  --color-button: var(--vt-c-white);
+  --width-button: 121px;
+  --height-button: 31px;
+  --border-radius-button: 13px;
+  --font-size-button: 14px;
+  --font-weight-button: 800;
+  --line-height-button: 20px;
+}
+
+button {
+    background-color: var(--bg-color-button);
+    color: var(--color-button);
+    width: var(--width-button);
+    height: var(--height-button);
+    border-radius: var(--border-radius-button);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    line-height: var(--line-height-button);
+    letter-spacing: var(--letter-spacing-button);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: var(--vt-c-grey-darkest);
+  }
+
+  button.danger {
+    background-color: var(--color-danger);
+  }
