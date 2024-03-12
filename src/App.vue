@@ -22,9 +22,7 @@
     <img src="/src/assets/images/USP-3.svg" alt="ima-3">
   </div>
   <div class="h3-info">
-    <h3>Performant</h3>
-    <h3>Approachable</h3>
-    <h3>Versatile</h3>
+    <h3 v-for="info in infoList" :key="info">{{ info }}</h3>
   </div>
   <div class="">
     <p>Truly reactive, compiler-optimized rendering system that rarely requires manual optimization.</p>
@@ -38,7 +36,8 @@ export default {
   data() {
     return {
       title: 'Welcome to Vue.js',
-      subtitle: 'Become a coding ninja with the fastest-growing JavaScript framework'
+      subtitle: 'Become a coding ninja with the fastest-growing JavaScript framework',
+      infoList: ['Performant', 'Approachable', 'Versatile']
     };
   }
 }
@@ -46,7 +45,7 @@ export default {
 <!--------------------------------- Style --------------------------------->
 <style scoped>
 @import '/src/assets/main.css';
-@import './base.css';
-@import './color.css';
-@import './button.css';
+@import '/src/assets/base.css';
+@import '/src/assets/_colors.css';
+@import '/src/assets/_button.css';
 </style>
