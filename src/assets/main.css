@@ -10,3 +10,24 @@
   padding: 1rem;
   font-weight: normal;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+  padding: 20px;
+}
+
+#container-logo {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color:bisque;
+  padding: 20px;
+}
+
+#container-logo img {
+  max-width: 100%; 
+}
+

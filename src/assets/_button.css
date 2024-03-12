@@ -1,7 +1,7 @@
 :root {
     --width-button: 121px;
     --height-button: 31px;
-    --border-radius-button: 13px;
+    --border-radius-button: 20px;
     --font-size-button: 14px;
     --font-weight-button: 800;
     --line-height-button: 20px;
@@ -24,6 +24,14 @@
     border: none;
     outline: none;
     transition: background-color 0.3s;
+    display: block;
+    margin: auto;
+    font-size: 1.2em; 
+    padding: 10px 10px;
+    padding-bottom: 30px;
+    
+    
+
   }
   
   button.danger {
