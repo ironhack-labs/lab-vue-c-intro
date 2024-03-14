@@ -1,35 +1,81 @@
-@import './base.css';
+@import '@/assets/_colors.css';
+@import '@/assets/_button.css';
+@import '@/assets/base.css';
 
 #app {
-  max-width: 1280px;
+  height: 100vh;
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   font-weight: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+#container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+#container-logo img {
+  max-width: 100%;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+#container-titles {
+  text-align: center;
+}
+
+.custom-h1 {
+  font-size: 50px;
+  line-height: 95px;
+  letter-spacing: -2%;
+  font-weight: 800;
+  color: var(--vt-c-grey-darkest);
+}
+
+.custom-h3 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -2%;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+/* ------------------------cards------------------------- */
+
+.background-container {
+  background-color: var(--vt-c-green);
+  width: 600px;
+  height: 312px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.card {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.title h3 {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.text {
+  text-align: center;
+  font-size: 12px;
 }
