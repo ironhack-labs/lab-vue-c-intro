@@ -39,7 +39,7 @@ export default defineComponent({
   data() {
     return {
       title: 'Welcome to Vue.js',
-      subtitle: 'Become a coding ninja with the fastest-growing JavaScript framework',
+      subtitle: 'Become a coding ninja with the fastest-\ngrowing JavaScript framework',
       cards: [
         {
           title: 'Performant',
