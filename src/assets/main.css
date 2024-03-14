@@ -20,14 +20,13 @@ nav {
 
 #container-logo {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
-  
   padding: 20px;
 }
 
 #container-logo img {
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 #container-titles {
@@ -50,18 +49,33 @@ nav {
   margin-bottom: 40px;
 }
 
-.images-container {
-  height: 40vh;
-  width: 100%;
-  background-color: var(--vt-c-green);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* ------------------------cards------------------------- */
 
+.background-container {
+  background-color: var(--vt-c-green);
+  width: 600px;
+  height: 312px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  gap: 30px;
 }
 
-.images-container img {
-  margin-right: 60px;
-  margin-left: 60px;
+.card {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
 
+.title h3 {
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.text {
+  text-align: center;
+  font-size: 12px;
 }

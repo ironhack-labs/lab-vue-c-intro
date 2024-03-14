@@ -1,10 +1,11 @@
 <template>
   <div>
+    <!-- Contenido del head -->
     <nav>
       <img src="./assets/images/Ironhack_logo.svg" alt="logo-ironhack">
       <img src="./assets/images/Burger_menu.svg" alt="menu">
     </nav>
-
+    <!-- Contenido del body -->
     <div id="container-logo">
       <img src="./assets/images/Vue_logo.svg" alt="container-logo">
     </div>
@@ -14,35 +15,53 @@
       <h3 class="custom-h3">{{ subtitle }}</h3>
       <button class="btn">Awesome!</button>
     </div>
-
   </div>
-  <div class="images-container">
-    <img src="/src/assets/images/USP-1.svg" alt="ima-1">
-    <img src="/src/assets/images/USP-2.svg" alt="ima-2">
-    <img src="/src/assets/images/USP-3.svg" alt="ima-3">
-  </div>
-  <div class="h3-info">
-    <h3 v-for="info in infoList" :key="info">{{ info }}</h3>
-  </div>
-  <div class="">
-    <p>Truly reactive, compiler-optimized rendering system that rarely requires manual optimization.</p>
-    <p>Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation.</p>
-    <p>A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework.</p>
+  <!--------------------------------- Cards ------------------------------->
+  <div class="background-container">
+    <div v-for="(card, index) in cards" :key="index" class="card">
+      <div class="image" :id="'image' + (index + 1)">
+        <img :src="card.imageSrc" :alt="'ima-' + (index + 1)">
+      </div>
+      <div class="title">
+        <h3>{{ card.title }}</h3>
+      </div>
+      <div class="text">
+        <p>{{ card.description }}</p>
+      </div>
+    </div>
   </div>
 </template>
-<!-------------------------------- script -------------------------------->
-<script>
-export default {
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
   data() {
     return {
       title: 'Welcome to Vue.js',
       subtitle: 'Become a coding ninja with the fastest-growing JavaScript framework',
-      infoList: ['Performant', 'Approachable', 'Versatile']
+      cards: [
+        {
+          title: 'Performant',
+          imageSrc: '/src/assets/images/USP-1.svg',
+          description: 'Truly reactive, compiler-optimized rendering system that rarely requires manual optimization.'
+        },
+        {
+          title: 'Approachable',
+          imageSrc: '/src/assets/images/USP-2.svg',
+          description: 'Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation.'
+        },
+        {
+          title: 'Versatile',
+          imageSrc: '/src/assets/images/USP-3.svg',
+          description: 'A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework.'
+        }
+      ]
     };
   }
-}
+});
 </script>
-<!--------------------------------- Style --------------------------------->
+<!------------------------------------------------------ Style -------------------------------------------------->
 <style scoped>
 @import '/src/assets/main.css';
 @import '/src/assets/base.css';
